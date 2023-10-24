@@ -3353,7 +3353,7 @@ function init() {
 
 	//Load Model
 	let loader = new THREE.GLTFLoader();
-	loader.load("https://nuoyax.github.io/three-js-card/scene.gltf", function(gltf) {
+	loader.load("https://raw.githubusercontent.com/ricardoolivaalonso/Codepen/master/Card/models/drone/scene.gltf", function(gltf) {
 		scene.add(gltf.scene);
 		house = gltf.scene.children[0];
 		animate();
